@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: black solid 2px;
+}
+
+.portrait {
+    grid-row: span 2;
+}
+
+
+.landscape {
+    grid-row: span 1;
+}
