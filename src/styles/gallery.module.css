@@ -1,17 +1,28 @@
 .container {
     --num-cols: 3;
-    --row-height: auto;
+    /* --row-height: auto; */
     --gap: 64px;
 
     box-sizing: border-box;
     padding: var(--gap);
 
-    display: grid;
+    display: inline-block;
+    columns: var(--num-cols);
+    column-gap: var(--gap);
+    overflow: visible;
+    column-fill: balance;
+    /* display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
     grid-auto-rows: var(--row-height);
     overflow: hidden;
     gap: var(--gap);
-    align-items: start;
+    align-items: start; */
+}
+
+.container > * {
+    break-inside: avoid;
+    margin-bottom: var(--gap);
+    display: inline-block;
 }
 
 @media screen and (max-width: 1024px) {

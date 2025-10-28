@@ -5,10 +5,13 @@ on hover, revealing a caption*/
 .shadow {
     --color: transparent;
     --text: "";
-    --font-size: 0px;
+    --font-size: 2rem;
     position: relative;
     width: 100%;
     height: auto;
+    
+    /* padding-bottom: 25px;  */
+    /* overflow: visible; */
 }
 
 .shadow::before {
@@ -24,12 +27,11 @@ on hover, revealing a caption*/
 }
 
 .shadow::after {
-    /* ToDo: doesn't quite feel centered */
     position: absolute;
     content: var(--text);
-    /* text-align: center; */
+    text-align: center;
     top: 60%;
-    left: 55%;
+    left: 60%;
     transform: translate(-50%, -50%);
     color: black;
     font-weight: bold;
@@ -46,12 +48,4 @@ on hover, revealing a caption*/
 .shadow:hover::before {
     z-index: 3;
     opacity: 1;
-}
-
-.portrait {
-    grid-row: span 2;
-}
-
-.landscape {
-    grid-row: span 1;
 }

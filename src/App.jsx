@@ -10,20 +10,35 @@ function Gallery() {
     <>
       <h1>The Film Expo</h1>
       <section className={gallery.container}>
-        <div className={`${wrapper.shadow} ${wrapper.landscape}`} style={{'--color': '#669BBC', '--text': '"Portrait Of A Hen"', '--font-size': '1.5rem'}}>
-          <Image className={`${image.container} ${image.landscape}`} src="src/assets/hen.JPG" alt="portrait of a hen"/>
+        <div className={`${wrapper.shadow}`} style={{'--color': '#669BBC', '--text': '"Portrait Of A Hen"'}}>
+          <Image className={`${image.container}`} src="src/assets/hen.JPG" alt="portrait of a hen"/>
         </div>
-        <div className={`${wrapper.shadow} ${wrapper.landscape}`} style={{'--color': '#669BBC', '--text': '"Youth Capitol Takeover 2025"', '--font-size': '1.5rem'}}>
-          <Image className={`${image.container} ${image.landscape}`} src="src/assets/protesters.jpg" alt="protesters with signs"/>
+        <div className={`${wrapper.shadow}`} style={{'--color': '#669BBC', '--text': '"Youth Capitol Takeover 2025"'}}>
+          <Image className={`${image.container}`} src="src/assets/protesters.jpg" alt="protesters with signs"/>
         </div>
-        <div className={`${wrapper.shadow} ${wrapper.portrait}`} style={{'--color': '#669BBC', '--text': '"The Alley"', '--font-size': '1.5rem'}}>
-          <Image className={`${image.container} ${image.portrait}`} src="src/assets/alley.jpg" alt="an alley"/>
+        <div className={`${wrapper.shadow}`} style={{'--color': '#669BBC', '--text': '"The Alley"'}}>
+          <Image className={`${image.container}`} src="src/assets/alley.jpg" alt="an alley"/>
         </div>
-        <div className={`${wrapper.shadow} ${wrapper.portrait}`} style={{'--color': '#669BBC', '--text': '"A Prayer"', '--font-size': '1.5rem'}}>
-          <Image className={`${image.container} ${image.portrait}`} src="src/assets/mary.JPG" alt="statue of the virgin mary"/>
+        <div className={`${wrapper.shadow}`} style={{'--color': '#669BBC', '--text': '"Dam"'}}>
+          <Image className={`${image.container}`} src="src/assets/dam.JPG" alt="image of a dam in San Antonio, TX"/>
         </div>
-        <div className={`${wrapper.shadow} ${wrapper.landscape}`} style={{'--color': '#669BBC', '--text': '"Galleria"', '--font-size': '1.5rem'}}>
-          <Image className={`${image.container} ${image.landscape}`} src="src/assets/galleria.JPG" alt="aesthetic image of galleria mall"/>
+        <div className={`${wrapper.shadow}`} style={{'--color': '#669BBC', '--text': '"A Prayer"'}}>
+          <Image className={`${image.container}`} src="src/assets/mary.JPG" alt="statue of the virgin mary"/>
+        </div>
+        <div className={`${wrapper.shadow}`} style={{'--color': '#669BBC', '--text': '"Galleria"'}}>
+          <Image className={`${image.container}`} src="src/assets/galleria.JPG" alt="aesthetic image of galleria mall"/>
+        </div>
+        <div className={`${wrapper.shadow}`} style={{'--color': '#669BBC', '--text': '"Blue Star Provisions Co."'}}>
+          <Image className={`${image.container}`} src="src/assets/blue-star.JPG" alt="Blue Star Provisions Co. San Antonio, TX"/>
+        </div>
+        <div className={`${wrapper.shadow}`} style={{'--color': '#669BBC', '--text': '"Mercado"'}}>
+          <Image className={`${image.container}`} src="src/assets/flags.JPG" alt="line of colorful banners with building and sky in the backdrop"/>
+        </div>
+         <div className={`${wrapper.shadow}`} style={{'--color': '#669BBC', '--text': '"Coupe"'}}>
+          <Image className={`${image.container}`} src="src/assets/coupe.jpg" alt="a white coupe"/>
+        </div>
+         <div className={`${wrapper.shadow}`} style={{'--color': '#669BBC', '--text': '"Taqueria"'}}>
+          <Image className={`${image.container}`} src="src/assets/taqueria.JPG" alt="inside of a small taqueria"/>
         </div>
         
       </section>
