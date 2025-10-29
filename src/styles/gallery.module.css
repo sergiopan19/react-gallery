@@ -1,27 +1,19 @@
 .container {
     --num-cols: 3;
-    /* --row-height: auto; */
-    --gap: 64px;
+    --gap-horizontal: 128px;
+    --gap-vertical: 64px;
 
     box-sizing: border-box;
-    padding: var(--gap);
-
+    padding: calc(var(--gap-horizontal)/2);
     display: inline-block;
     columns: var(--num-cols);
-    column-gap: var(--gap);
-    overflow: visible;
+    column-gap: var(--gap-horizontal);
     column-fill: balance;
-    /* display: grid;
-    grid-template-columns: repeat(var(--num-cols), 1fr);
-    grid-auto-rows: var(--row-height);
-    overflow: hidden;
-    gap: var(--gap);
-    align-items: start; */
 }
 
 .container > * {
     break-inside: avoid;
-    margin-bottom: var(--gap);
+    margin-bottom: var(--gap-vertical);
     display: inline-block;
 }
 

@@ -9,9 +9,6 @@ on hover, revealing a caption*/
     position: relative;
     width: 100%;
     height: auto;
-    
-    /* padding-bottom: 25px;  */
-    /* overflow: visible; */
 }
 
 .shadow::before {
